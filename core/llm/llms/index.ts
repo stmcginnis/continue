@@ -24,6 +24,7 @@ import HuggingFaceInferenceAPI from "./HuggingFaceInferenceAPI";
 import HuggingFaceTGI from "./HuggingFaceTGI";
 import Kindo from "./Kindo";
 import LMStudio from "./LMStudio";
+import Lambda from "./Lambda";
 import LlamaCpp from "./LlamaCpp";
 import Llamafile from "./Llamafile";
 import Mistral from "./Mistral";
@@ -55,6 +56,7 @@ const LLMs = [
   HuggingFaceTGI,
   HuggingFaceInferenceAPI,
   Kindo,
+  Lambda,
   LlamaCpp,
   OpenAI,
   LMStudio,

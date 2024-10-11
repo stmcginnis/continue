@@ -618,6 +618,7 @@ type ModelProvider =
   | "huggingface-tgi"
   | "huggingface-inference-api"
   | "kindo"
+  | "lambda"
   | "llama.cpp"
   | "replicate"
   | "text-gen-webui"
